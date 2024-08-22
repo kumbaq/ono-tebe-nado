@@ -91,13 +91,17 @@ body {
   padding-top: 10px;
 }
 
-.aligned-text_right{
+.aligned-text_right {
   display: block;
   padding-left: 583px;
-}
+  }
 
 .letter-spacing-extended {
   letter-spacing: 0.6em;
+}
+
+.letter-spacing {
+  letter-spacing: -1px
 }
 
 .cover__description {
@@ -306,7 +310,6 @@ width: 334px;
 }
 
 .footer__menu-list {
-  display: block;
   padding-top: 10px;
   padding-left: 11px;
   display: flex;
@@ -320,7 +323,6 @@ width: 334px;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  list-style-type: circle ;
   display: flex;
   align-items: center;
   gap: 33px;
